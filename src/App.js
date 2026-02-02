@@ -220,7 +220,7 @@ const ValentineApp = () => {
 
     return (
       <div className="fixed inset-0 bg-black bg-opacity-60 flex items-center justify-center p-4 z-50 overflow-y-auto">
-        <div className="bg-white rounded-2xl shadow-2xl max-w-md w-full p-6 sm:p-8 relative animate-scale-in my-8">
+        <div className="bg-white rounded-2xl shadow-2xl max-w-md w-full p-6 sm:p-8 relative animate-scale-in mb-8 mt-16">
 
           <button
             onClick={() => setShowShareModal(false)}
