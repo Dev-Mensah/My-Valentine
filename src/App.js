@@ -265,7 +265,7 @@ const ValentineApp = () => {
               )}
             </button>
 
-            <p className="w-full flex justify-end text-blue-500 mt-4 ">
+            {/* <p className="w-full flex justify-end text-blue-500 mt-4 ">
             <a
               href="https://www.linkedin.com/in/albert-mensah-a2608320a/"
               target="_blank"
@@ -274,7 +274,7 @@ const ValentineApp = () => {
             >
               <FaLinkedin className="text-4xl" />
             </a>
-          </p>
+          </p> */}
           </div>
 
           <div className="space-y-2 mb-4">
@@ -397,7 +397,7 @@ const ValentineApp = () => {
     return (
       <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center p-4 z-50">
         <div className="bg-white rounded-2xl shadow-2xl max-w-lg w-full p-6 sm:p-8 mx-4 relative animate-scale-in">
-          <p className="w-full flex justify-start text-blue-500 ">
+          {/* <p className="w-full flex justify-start text-blue-500 ">
             <a
               href="https://www.linkedin.com/in/albert-mensah-a2608320a/"
               target="_blank"
@@ -406,7 +406,7 @@ const ValentineApp = () => {
             >
               <FaLinkedin className="text-4xl" />
             </a>
-          </p>
+          </p> */}
 
           <button
             onClick={() => setShowModal(false)}
@@ -654,7 +654,7 @@ const ValentineApp = () => {
             </button>
           </form>
 
-          <p className="w-full flex justify-end mt-4 text-blue-500 ">
+          {/* <p className="w-full flex justify-end mt-4 text-blue-500 ">
             <a
               href="https://www.linkedin.com/in/albert-mensah-a2608320a/"
               target="_blank"
@@ -663,7 +663,7 @@ const ValentineApp = () => {
             >
               <FaLinkedin className="text-4xl" />
             </a>
-          </p>
+          </p> */}
         </div>
       )}
 
@@ -732,7 +732,7 @@ const ValentineApp = () => {
               No
             </button>
           </div>
-          <p className="w-full flex justify-end mt-4 text-blue-500 ">
+          {/* <p className="w-full flex justify-end mt-4 text-blue-500 ">
             <a
               href="https://www.linkedin.com/in/albert-mensah-a2608320a/"
               target="_blank"
@@ -741,7 +741,7 @@ const ValentineApp = () => {
             >
               <FaLinkedin className="text-4xl" />
             </a>
-          </p>
+          </p> */}
 
           {noAttempts > 0 && (
             <p className="mt-6 text-pink-600 font-semibold animate-pulse text-sm sm:text-base px-4">
@@ -810,7 +810,7 @@ const ValentineApp = () => {
             </button>
           </div>
 
-          <p className="w-full flex justify-end mt-4 text-blue-500 ">
+          {/* <p className="w-full flex justify-end mt-4 text-blue-500 ">
             <a
               href="https://www.linkedin.com/in/albert-mensah-a2608320a/"
               target="_blank"
@@ -819,7 +819,7 @@ const ValentineApp = () => {
             >
               <FaLinkedin className="text-4xl" />
             </a>
-          </p>
+          </p> */}
         </div>
       )}
 
@@ -860,7 +860,7 @@ const ValentineApp = () => {
               Create Another Proposal
             </button>
 
-            <p className="w-full flex justify-end mt-4 text-blue-500 ">
+            {/* <p className="w-full flex justify-end mt-4 text-blue-500 ">
               <a
                 href="https://www.linkedin.com/in/albert-mensah-a2608320a/"
                 target="_blank"
@@ -869,7 +869,7 @@ const ValentineApp = () => {
               >
                 <FaLinkedin className="text-4xl" />
               </a>
-            </p>
+            </p> */}
           </div>
         </>
       )}
